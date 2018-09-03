@@ -1,0 +1,1 @@
+/* default scripts for all */
