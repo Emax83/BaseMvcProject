@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box;
+}
+
+html,body,form {
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#333333;
+}
+
+input,
+select,
+textarea,
+img {
+    width:100%;
+}
+
+textarea{
+    resize:vertical;
+    min-height:100pt;
+    font-size:small;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table,tbody,thead, tr,td,th{
+    width:100%;
+    padding:0pt;
+    margin:0pt;
+    border-collapse:collapse;
+}
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
